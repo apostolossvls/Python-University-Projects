@@ -20,5 +20,9 @@ def loop(s,start,dig,c):
 		c=c+1
 	return c
 c = loop(s,1,1,c)
+#for i in range(1,10):
+#	for j in range(2,n+1):
+#		if j*i==s:
+#			c-=1
 #deleted calc that excluded numbers like 11,222,777,99999 as they count on the problem
 print("Amount of numbers that their rising digits adds to S: "+str(c))
